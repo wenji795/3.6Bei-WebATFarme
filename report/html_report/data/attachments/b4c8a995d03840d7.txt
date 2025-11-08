@@ -1,0 +1,4 @@
+INFO     root:test_runner.py:37 用例ID：test_1 模块：test 场景：XX 标题：xxx
+INFO     root:test_runner.py:44 步骤: {'step_num': 1, 'step_name': '打开网址', 'keyword': 'open', 'by': None, 'value': None, 'data': 'file:///Users/swj_795/Desktop/%E5%8C%97%E6%A2%A6%E6%B5%8B/pagetest/%E6%B3%A8%E5%86%8C%E5%AE%9E%E4%BE%8B.html', 'index': None}
+INFO     root:test_runner.py:44 步骤: {'step_num': 2, 'step_name': '输入用户名', 'keyword': 'input', 'by': 'xpath', 'value': '//input', 'data': 'admin', 'index': None}
+INFO     root:test_runner.py:44 步骤: {'step_num': 3, 'step_name': '等待', 'keyword': 'wait', 'by': None, 'value': None, 'data': 5, 'index': None}
