@@ -1,11 +1,14 @@
 # driver相关配置项
 #浏览器类型：chrome/edge
 BROWSER_TYPE = "chrome"
+
 #使用哪种浏览器驱动管理方式：local/其他
 DRIVER_TYPE = "local"
+
 #本地浏览器驱动路径
 CHROME_DRIVER_PATH = "./driver/chromedriver"
 EDGE_DRIVER_PATH = "./driver/"
+
 #是否开启无头模式
 HEADLESS = False
 
