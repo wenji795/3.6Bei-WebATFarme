@@ -1,10 +1,12 @@
 import openpyxl
 
+from config.config import EXCEL_FILE
+
 
 def read_excel():
     # 打开 excel 文件
     # workbook = openpyxl.load_workbook(file_path)
-    workbook = openpyxl.load_workbook("./data/3.5.xlsx")
+    workbook = openpyxl.load_workbook(EXCEL_FILE)
 
     # 读取数据操作
     #思路：先把所有用例数据读出来，再进行筛选，合格的用例添加到data中
